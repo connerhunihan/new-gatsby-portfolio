@@ -37,14 +37,12 @@ const Banner = () => {
   `)
 
   return (
-    <div className="banner">
-      <div className="container">
-        <div className="row">
-          <div className="main-text">
-            Hello, I’m Conner — a user experience designer with a focus on
-            UI/UX, user research, and service design.
-          </div>
-        </div>
+    <div className="outer-container">
+      <div className="banner">
+        <p>
+          Hello, I’m Conner — a user experience designer with a focus on UI/UX,
+          user research, and service design.
+        </p>
       </div>
     </div>
   )

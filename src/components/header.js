@@ -3,15 +3,15 @@ import React from "react"
 
 const Header = () => (
   <header>
-    <div className="container">
+    <div className="outer-container">
       <div className="inner-header">
-        <div className="logo">
+        <div className="left">
           <Link to="/">CJH</Link>
         </div>
-        <div className="navigation">
+        <div className="right">
           <nav>
             <Link to="https://drive.google.com/file/d/18ZLIgtTnTXA2P2dEYxLamGF_WffrghF-/view">
-              Resume
+              Resumé
             </Link>
           </nav>
         </div>
