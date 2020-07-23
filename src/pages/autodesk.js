@@ -13,42 +13,42 @@ const Autodesk = () => {
     query {
       cardSorting: file(relativePath: { eq: "autodesk-card-sorting.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
           }
         }
       }
       conceptModel: file(relativePath: { eq: "autodesk-concept-model.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
           }
         }
       }
       feedback: file(relativePath: { eq: "autodesk-feedback.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
           }
         }
       }
       final: file(relativePath: { eq: "autodesk-final.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
           }
         }
       }
       products: file(relativePath: { eq: "autodesk-products.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
           }
         }
       }
       prototypeTesting: file(relativePath: { eq: "autodesk-prototype.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -57,21 +57,21 @@ const Autodesk = () => {
         relativePath: { eq: "autodesk-service-blueprint.png" }
       ) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
           }
         }
       }
       testing: file(relativePath: { eq: "autodesk-testing.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
           }
         }
       }
       users: file(relativePath: { eq: "autodesk-users.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 1200) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -82,7 +82,7 @@ const Autodesk = () => {
   return (
     <div>
       <Header />
-      <div className="outer-container full-vh">
+      <div className="small-left-right-margin full-vh">
         <div className="banner project">
           <p>
             The <Link to="https://www.autodesk.com/">Autodesk</Link> Data
@@ -129,8 +129,8 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div className="larger-outer-container">
-        <div className="paragraph">
+      <div className="large-left-right-margin">
+        <div className="paragraph large-top-bottom-margin">
           <h3>
             The community doesn’t know what data is on the platform, or how to
             access it
@@ -143,14 +143,15 @@ const Autodesk = () => {
             unanimously reported frustrations with transparency of data, as well
             as with understanding the process of using the platform.
           </p>
+
           <Img
-            className="top-bottom-margin"
+            style={{ width: "75%", margin: "7% auto 0 auto" }} // top right bottom left
             fluid={data.users.childImageSharp.fluid}
           />
         </div>
       </div>
 
-      <div className="larger-outer-container">
+      <div className="large-left-right-margin">
         <div className="half-width">
           <div className="paragraph">
             <h3>
@@ -172,7 +173,10 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div className="larger-outer-container">
+      <div
+        style={{ margin: "7% auto 0 auto" }}
+        className="large-left-right-margin"
+      >
         <div className="half-width">
           <div className="paragraph">
             <h3>
@@ -187,23 +191,36 @@ const Autodesk = () => {
           </div>
         </div>
         <div className="half-width image-right">
-          <Img fluid={data.cardSorting.childImageSharp.fluid} />
+          <Img
+            style={{ height: "25vh" }}
+            fluid={data.cardSorting.childImageSharp.fluid}
+          />
         </div>
       </div>
 
-      <div className="larger-outer-container">
+      <div
+        style={{ margin: "7% auto 0 auto" }}
+        className="large-left-right-margin"
+      >
         <div className="paragraph">
+          <h3>Concept model</h3>
           <p>
             A concept model was created to map the mental model users had, to
             the revised structure of the data portal property. This provided not
             only a foundation for the portal, but it outlined process details
             that would need to be included in the product experience, as well.
           </p>
-          <Img fluid={data.conceptModel.childImageSharp.fluid} />
+          <Img
+            className="top-margin"
+            fluid={data.conceptModel.childImageSharp.fluid}
+          />
         </div>
       </div>
 
-      <div className="larger-outer-container">
+      <div
+        style={{ margin: "7% auto 0 auto" }}
+        className="large-left-right-margin"
+      >
         <div className="paragraph">
           <h3>Three distinct pain points in the process</h3>
           <p>
@@ -217,11 +234,17 @@ const Autodesk = () => {
             and use case-dependent instructions) and context (Notes of what
             works and what didn’t for teams that have gone before).
           </p>
-          <Img fluid={data.serviceBlueprint.childImageSharp.fluid} />
+          <Img
+            className="top-margin"
+            fluid={data.serviceBlueprint.childImageSharp.fluid}
+          />
         </div>
       </div>
 
-      <div className="larger-outer-container">
+      <div
+        style={{ margin: "7% auto 0 auto" }}
+        className="large-left-right-margin"
+      >
         <div className="half-width">
           <div className="paragraph">
             <h3>Testing a prototype</h3>
@@ -234,22 +257,31 @@ const Autodesk = () => {
           </div>
         </div>
         <div className="half-width image-right">
-          <Img fluid={data.testing.childImageSharp.fluid} />
+          <Img
+            style={{ height: "25vh" }}
+            fluid={data.testing.childImageSharp.fluid}
+          />
         </div>
       </div>
 
-      <div className="larger-outer-container">
+      <div className="large-left-right-margin">
         <div className="paragraph">
           <Img fluid={data.prototypeTesting.childImageSharp.fluid} />
-          <p>
+          <p className="top-margin">
             Users praised the high-level overview and guidance that the site
             would offer, but commented that many of the details required to
             actually run an ETL are not documented on any source.
           </p>
-          <Img fluid={data.feedback.childImageSharp.fluid} />
+          <Img
+            className="top-margin"
+            fluid={data.feedback.childImageSharp.fluid}
+          />
         </div>
       </div>
-      <div className="larger-outer-container">
+      <div
+        style={{ margin: "7% auto 0 auto" }}
+        className="large-left-right-margin"
+      >
         <div className="paragraph">
           <h3>Applying Autodesk branding</h3>
           <p>
@@ -257,9 +289,13 @@ const Autodesk = () => {
             high-fidelity mockup that was delivered to the Data Strategy and
             Experience team.
           </p>
-          <Img fluid={data.final.childImageSharp.fluid} />
+          <Img
+            className="top-margin"
+            fluid={data.final.childImageSharp.fluid}
+          />
         </div>
       </div>
+
       <Footer />
     </div>
   )

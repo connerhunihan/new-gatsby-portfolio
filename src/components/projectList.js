@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 
 const ProjectList = () => {
   return (
-    <div className="outer-container">
+    <div className="small-left-right-margin">
       <div className="project-list">
         <div>
           <Link to="/autodesk">

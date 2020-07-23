@@ -24,7 +24,7 @@ const Mighty = () => {
   return (
     <div>
       <Header />
-      <div className="outer-container full-vh">
+      <div className="small-left-right-margin full-vh">
         <div className="banner project">
           <p>
             The <Link to="https://www.mightyportfolio.com/">Mighty</Link> team
@@ -69,7 +69,7 @@ const Mighty = () => {
         </div>
       </div>
 
-      <div className="outer-container">
+      <div className="small-left-right-margin">
         <div className="paragraph protected">
           {/* <h3>This is a title</h3> */}
           <h3>
@@ -78,7 +78,7 @@ const Mighty = () => {
           </h3>
         </div>
       </div>
-      {/* <div className="larger-outer-container">
+      {/* <div className="large-left-right-margin">
         <div className="half-width">
           <div className="paragraph">
             <h3>This is a title</h3>
@@ -96,7 +96,7 @@ const Mighty = () => {
           <Img fluid={data.apple.childImageSharp.fluid} />
         </div>
       </div>
-      <div className="larger-outer-container">
+      <div className="large-left-right-margin">
         <div className="half-width image-left">
           <Img fluid={data.apple.childImageSharp.fluid} />
         </div>
@@ -115,7 +115,7 @@ const Mighty = () => {
           </div>
         </div>
       </div>
-      <div className="larger-outer-container">
+      <div className="large-left-right-margin">
         <div className="paragraph">
           <Img fluid={data.apple.childImageSharp.fluid} />
           <h3>This is a title</h3>

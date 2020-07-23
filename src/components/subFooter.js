@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 
 const SubFooter = () => {
   return (
-    <div className="outer-container">
+    <div className="small-left-right-margin">
       <div className="subfooter">
         <div className="link-1">
           <Link to="/about">

@@ -37,7 +37,7 @@ const Banner = () => {
   `)
 
   return (
-    <div className="outer-container">
+    <div className="small-left-right-margin">
       <div className="banner">
         <p>
           Hello, I’m Conner — a user experience designer with a focus on UI/UX,

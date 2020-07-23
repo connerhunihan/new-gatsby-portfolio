@@ -3,7 +3,7 @@ import React from "react"
 
 const Header = () => (
   <header>
-    <div className="outer-container">
+    <div className="small-left-right-margin">
       <div className="inner-header">
         <div className="left">
           <Link to="/">CJH</Link>

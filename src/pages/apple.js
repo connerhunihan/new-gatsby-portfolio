@@ -24,7 +24,7 @@ const Mighty = () => {
   return (
     <div>
       <Header />
-      <div className="outer-container full-vh">
+      <div className="small-left-right-margin full-vh">
         <div className="banner project">
           <div className="paragraph protected">
             {/* <h3>This is a title</h3> */}

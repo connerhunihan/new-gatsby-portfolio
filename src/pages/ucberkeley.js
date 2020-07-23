@@ -7,7 +7,7 @@ import Header from "../components/header"
 const Project = () => (
   <div>
     <Header />
-    <div className="outer-container">
+    <div className="small-left-right-margin">
       <div className="banner">
         <p>Imanalla! Ima shuti kangui?</p>
       </div>
