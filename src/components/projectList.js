@@ -7,49 +7,49 @@ const ProjectList = () => {
   return (
     <div className="outer-container">
       <div className="project-list">
-        <div className="project 1">
+        <div>
           <Link to="/autodesk">
             <h3>Autodesk</h3>
-            <p>Demystifying data access.</p>
+            <p>Simplifying access to big data.</p>
           </Link>
         </div>
-        <div className="project 2">
+        <div>
           <Link to="/mighty">
             <h3>Mighty</h3>
             <p>Modernizing venture capital workflows.</p>
           </Link>
         </div>
-        <div className="project 3">
+        <div>
           <Link to="/apple">
             <h3>Apple</h3>
-            <p>Unifying administrative tools.</p>
+            <p>Unifying the administrative experience.</p>
           </Link>
         </div>
-        <div className="project 4">
+        <div>
           <Link to="/cc">
             <h3>Creative Commons</h3>
             <p>Redefining how we all license content.</p>
           </Link>
         </div>
-        <div className="project 5">
+        <div>
           <Link to="/nueva">
             <h3>Nueva</h3>
             <p>Building culture, with story.</p>
           </Link>
         </div>
-        <div className="project 6">
+        <div>
           <Link to="/ccwip">
             <h3>CCWIP</h3>
             <p>Simplifying state-wide data reporting.</p>
           </Link>
         </div>
-        <div className="project 7">
+        <div>
           <Link to="/ucberkeley">
             <h3>UC Berkeley</h3>
             <p>Improving enrollment.</p>
           </Link>
         </div>
-        <div className="project 8">
+        <div>
           <Link to="/scisip">
             <h3>NSF</h3>
             <p>Advancing innovation policy.</p>

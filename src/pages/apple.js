@@ -1,42 +1,44 @@
+import { Link } from "gatsby"
 import React from "react"
 import "../styles/styles.scss"
+import Img from "gatsby-image"
+import { useStaticQuery, graphql } from "gatsby"
 
 // Import Components
 import Header from "../components/header"
+import Footer from "../components/footer"
 
-const Project = () => (
-  <div>
-    <Header />
-    <div className="outer-container">
-      <div className="banner">
-        <p>Imanalla! Ima shuti kangui?</p>
+const Mighty = () => {
+  // const data = useStaticQuery(graphql`
+  //   query {
+  //     apple: file(relativePath: { eq: "apple.png" }) {
+  //       childImageSharp {
+  //         fluid(maxWidth: 300) {
+  //           ...GatsbyImageSharpFluid
+  //         }
+  //       }
+  //     }
+  //   }
+  // `)
+
+  return (
+    <div>
+      <Header />
+      <div className="outer-container full-vh">
+        <div className="banner project">
+          <div className="paragraph protected">
+            {/* <h3>This is a title</h3> */}
+            <h3>
+              Due to NDA restrictions, this project is only available for
+              in-person presentation.
+            </h3>
+          </div>
+        </div>
       </div>
-      <div className="paragraph">
-        <p>
-          That was the first thing I heard when I stepped off the bus in what
-          would be my home for the next 27 months.
-        </p>
-        <p>
-          It was May of 2010, and I would spend the next three months of my
-          Peace Corps service conducting research to diagnose and triage
-          potential project opportunities.
-        </p>
-        <p>
-          Though I spoke not a word of Quechua, I savored the process of solving
-          problems by putting people at center stage.
-        </p>
-        <p>
-          Over ten years, I have had the fortune to continue honing and applying
-          this process across diverse contexts, broadening my own perspective
-          and skillset along the way.
-        </p>
-        <p>
-          I now design user experiences at EchoUser, where I work with a range
-          of clients to understand humans and craft transformational technology.
-        </p>
-      </div>
+
+      <Footer />
     </div>
-  </div>
-)
+  )
+}
 
-export default Project
+export default Mighty

@@ -10,7 +10,7 @@ const Header = () => (
         </div>
         <div className="right">
           <nav>
-            <Link to="https://drive.google.com/file/d/18ZLIgtTnTXA2P2dEYxLamGF_WffrghF-/view">
+            <Link to="https://drive.google.com/file/d/1dADC-HJVvNQp12M5MQ33DxnkTefJhVgJ/view">
               Resumé
             </Link>
           </nav>

@@ -18,21 +18,21 @@ const Project = () => (
         </p>
         <p>
           It was May of 2010, and I would spend the next three months of my
-          Peace Corps service conducting research to diagnose and triage
-          potential project opportunities.
+          Peace Corps service conducting research in the community to diagnose
+          and triage potential project opportunities.
         </p>
         <p>
-          Though I spoke not a word of Quechua, I savored the process of solving
-          problems by putting people at center stage.
+          Though I spoke not a word of Quechua, I fell in love with the process
+          of solving problems by putting people at center stage.
         </p>
         <p>
-          Over ten years, I have had the fortune to continue honing and applying
-          this process across diverse contexts, broadening my own perspective
-          and skillset along the way.
+          In the ten years since, I have had the fortune to continue honing and
+          applying this process across diverse contexts, broadening my own
+          perspective and skillset along the way.
         </p>
         <p>
-          I now design user experiences at EchoUser, where I work with a range
-          of clients to understand humans and craft transformational technology.
+          I now design user experiences at EchoUser where I help clients bring
+          transformational technology to life.
         </p>
       </div>
     </div>
