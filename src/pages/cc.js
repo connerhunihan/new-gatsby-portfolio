@@ -96,41 +96,43 @@ const Autodesk = () => {
   return (
     <div>
       <Header />
-      <div className="small-left-right-margin full-vh">
-        <div className="banner project">
-          <p>
-            In January 2018, the{" "}
-            <Link to="https://creativecommons.org/">Creative Commons</Link> (CC)
-            kicked off the <em>Usability Initiative</em> to renovate the
-            licensing experience. CC partnered with INFO290: Product Studio
-            Design to create concepts for six projects, one of which was a
-            license chooser tool.
-          </p>
-        </div>
-        <div className="project-components">
-          <div className="component-1">
-            <h3>Skills</h3>
-            <p>User testing, prototyping, design system, responsive design</p>
-          </div>
-          <div className="component-2">
-            <h3>Team</h3>
-            <p>Conner Hunihan (Design Lead, Product Manager)</p>
-          </div>
-          <div className="component-3">
-            <h3>Duration</h3>
-            <p>4 weeks</p>
-          </div>
-          <div className="component-4">
-            <h3>Essential Questions</h3>
+      <div className="full-vh">
+        <div className="small-left-right-margin">
+          <div className="banner project">
             <p>
-              How might we design the chooser tool so that third-party content
-              platforms can incorporate it out-of-the-box?
+              In January 2018, the{" "}
+              <Link to="https://creativecommons.org/">Creative Commons</Link>{" "}
+              (CC) kicked off the <em>Usability Initiative</em> to renovate the
+              licensing experience. CC partnered with INFO290: Product Studio
+              Design to create concepts for six projects, one of which was a
+              license chooser tool.
             </p>
-            <p>
-              How can we frame licensing decisions in a way that allows users to
-              make informed decisions, without needing to learn technical
-              details?
-            </p>
+          </div>
+          <div className="project-components">
+            <div className="component-1">
+              <h3>Skills</h3>
+              <p>User testing, prototyping, design system, responsive design</p>
+            </div>
+            <div className="component-2">
+              <h3>Team</h3>
+              <p>Conner Hunihan (Design Lead, Product Manager)</p>
+            </div>
+            <div className="component-3">
+              <h3>Duration</h3>
+              <p>4 weeks</p>
+            </div>
+            <div className="component-4">
+              <h3>Essential Questions</h3>
+              <p>
+                How might we design the chooser tool so that third-party content
+                platforms can incorporate it out-of-the-box?
+              </p>
+              <p>
+                How can we frame licensing decisions in a way that allows users
+                to make informed decisions, without needing to learn technical
+                details?
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -145,10 +147,9 @@ const Autodesk = () => {
             CC staff had already undertaken much of the research heavy lifting,
             conducting over 100 interviews with publications and users of all
             kinds. Of the nine key insights that came out of that research, two
-            were particularly relevant to the License Chooser Tool –{" "}
-            <b>licenses are not understood</b>, and while creators are
-            motivated,{" "}
-            <b>the process for how to actually license work is not clear.</b>
+            were particularly relevant to the License Chooser Tool – licenses
+            are not understood and while creators are motivated, the process for
+            how to actually license work is not clear.
           </p>
           <Img
             style={{ width: "33%", margin: "5% auto 0 auto" }} // top right bottom left
@@ -158,28 +159,43 @@ const Autodesk = () => {
       </div>
 
       <div className="large-left-right-margin">
-        <div className="half-width">
-          <div className="paragraph">
-            <h3>Framing the opportunity</h3>
-            <p>
-              Working with the Director of Product & Research, a final design
-              objective was framed: give users a tool, not only to find the
-              license they need, but to learn about the licensing process along
-              the way. This tool also needed to be portable across platforms, in
-              order to offer third-party content hosting platforms a
-              standardized template.
-            </p>
-          </div>
-        </div>
-        <div className="half-width image-right">
-          <div className="banner project">
-            <p style={{ color: "#c0c0c0" }}>
-              <em>
-                How might the selection experience also educate users on the
-                process and technical details of a license?
-              </em>
-            </p>
-          </div>
+        {/* <div className="half-width"> */}
+        <div className="paragraph">
+          <ul>
+            <li>
+              <div>
+                <h3>Framing the opportunity</h3>
+                <p>
+                  Working with the Director of Product & Research, a final
+                  design objective was framed: give users a tool, not only to
+                  find the license they need, but to learn about the licensing
+                  process along the way. This tool also needed to be portable
+                  across platforms, in order to offer third-party content
+                  hosting platforms a standardized template.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <p
+                  style={{
+                    color: "#c0c0c0",
+                    fontSize:
+                      "calc(27px + (35 - 27) * ((100vw - 300px) / (1600 - 300)))",
+                    lineHeight:
+                      "calc(2.4rem + (3.5 - 2.4) * ((100vw - 300px) / (1600 - 300)))",
+                    letterSpacing: "0.14rem",
+                    fontWeight: 100,
+                  }}
+                >
+                  <em>
+                    How might the selection experience also educate users on the
+                    process and technical details of a license?
+                  </em>
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
 
@@ -235,7 +251,7 @@ const Autodesk = () => {
         </div>
         <div className="half-width image-right">
           <Img
-            style={{ width: "45%", margin: "0 auto 0 auto" }} // top right bottom left
+            style={{ width: "65%", margin: "0 auto 0 auto" }} // top right bottom left
             fluid={data.context.childImageSharp.fluid}
           />
         </div>
@@ -259,7 +275,7 @@ const Autodesk = () => {
         </div>
         <div className="half-width image-right">
           <Img
-            style={{ width: "55%", margin: "0 auto 0 auto" }} // top right bottom left
+            style={{ width: "75%", margin: "0 auto 0 auto" }} // top right bottom left
             fluid={data.components.childImageSharp.fluid}
           />
         </div>
@@ -283,7 +299,7 @@ const Autodesk = () => {
         </div>
         <div className="half-width image-right">
           <Img
-            style={{ width: "55%", margin: "0 auto 0 auto" }} // top right bottom left
+            style={{ width: "75%", margin: "0 auto 0 auto" }} // top right bottom left
             fluid={data.modularization.childImageSharp.fluid}
           />
         </div>
@@ -439,6 +455,13 @@ const Autodesk = () => {
             attribution will look, and explore real-world examples that have
             used this license.
           </p>
+        </div>
+      </div>
+      <div
+        style={{ margin: "10% auto 0 auto" }}
+        className="large-left-right-margin"
+      >
+        <div className="prototype-iframe-container">
           <div className="small-left-right-margin">
             <iframe
               width="442"
@@ -464,14 +487,17 @@ const Autodesk = () => {
             third-party platform.
           </p>
           <div className="smallest-left-right-margin">
-            <iframe
-              width="1120"
-              height="630"
-              src="https://www.youtube.com/embed/FRtFQnNJARk"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <div className="yt-iframe-container">
+              <iframe
+                className="responsive-iframe"
+                width="1120"
+                height="630"
+                src="https://www.youtube.com/embed/FRtFQnNJARk"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>

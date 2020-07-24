@@ -65,51 +65,53 @@ const Autodesk = () => {
   return (
     <div>
       <Header />
-      <div className="small-left-right-margin full-vh">
-        <div className="banner project">
-          <p>
-            The{" "}
-            <Link to="https://www.nsf.gov/">National Science Foundation</Link>{" "}
-            created the Science of Science and Innovation Policy (SciSIP) in
-            2006 to fund policy making research in science and innovation.
-            <br />
-            <br />
-            In 2018, a grant was acquired to research, design, and develop a
-            central publishing platform to help guide that research into the
-            mainstream, general public.
-          </p>
-        </div>
-        <div className="project-components">
-          <div className="component-1">
-            <h3>Skills</h3>
+      <div className="full-vh">
+        <div className="small-left-right-margin">
+          <div className="banner project">
             <p>
-              User research, concept development, product management,
-              wireframing
-            </p>
-          </div>
-          <div className="component-2">
-            <h3>Team</h3>
-            <p>
-              Conner Hunihan (Product Manager, UX Design) <br />
-              Kathy Lee (Researcher)
+              The{" "}
+              <Link to="https://www.nsf.gov/">National Science Foundation</Link>{" "}
+              created the Science of Science and Innovation Policy (SciSIP) in
+              2006 to fund policy making research in science and innovation.
               <br />
-              MIGHTYminnow (Design Lead and Development)
+              <br />
+              In 2018, a grant was acquired to research, design, and develop a
+              central publishing platform to help guide that research into the
+              mainstream, general public.
             </p>
           </div>
-          <div className="component-3">
-            <h3>Duration</h3>
-            <p>16 weeks</p>
-          </div>
-          <div className="component-4">
-            <h3>Essential Questions</h3>
-            <p>
-              How might innovation research be presented in a way that's
-              digestible and resonant with the general public?
-            </p>
-            <p>
-              How might the design of the platform galvanize researchers to
-              participate?
-            </p>
+          <div className="project-components">
+            <div className="component-1">
+              <h3>Skills</h3>
+              <p>
+                User research, concept development, product management,
+                wireframing
+              </p>
+            </div>
+            <div className="component-2">
+              <h3>Team</h3>
+              <p>
+                Conner Hunihan (Product Manager, UX Design) <br />
+                Kathy Lee (Researcher)
+                <br />
+                MIGHTYminnow (Design Lead and Development)
+              </p>
+            </div>
+            <div className="component-3">
+              <h3>Duration</h3>
+              <p>16 weeks</p>
+            </div>
+            <div className="component-4">
+              <h3>Essential Questions</h3>
+              <p>
+                How might innovation research be presented in a way that's
+                digestible and resonant with the general public?
+              </p>
+              <p>
+                How might the design of the platform galvanize researchers to
+                participate?
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -24,14 +24,16 @@ const Mighty = () => {
   return (
     <div>
       <Header />
-      <div className="small-left-right-margin full-vh">
-        <div className="banner project">
-          <div className="paragraph protected">
-            {/* <h3>This is a title</h3> */}
-            <h3>
-              Due to NDA restrictions, this project is only available for
-              in-person presentation.
-            </h3>
+      <div className="full-vh">
+        <div className="small-left-right-margin">
+          <div className="banner project">
+            <div className="paragraph protected">
+              {/* <h3>This is a title</h3> */}
+              <h3>
+                Due to NDA restrictions, this project is only available for
+                in-person presentation.
+              </h3>
+            </div>
           </div>
         </div>
       </div>

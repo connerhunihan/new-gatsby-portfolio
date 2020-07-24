@@ -3,6 +3,7 @@ import "../styles/styles.scss"
 
 // Import Components
 import Header from "../components/header"
+import Footer from "../components/footer"
 
 const Project = () => (
   <div>
@@ -17,25 +18,25 @@ const Project = () => (
           would be my home for the next 27 months.
         </p>
         <p>
-          I didn't know it at the time, but the research that I would conduct in
-          thefirst three months of my Peace Corps service would change my life
-          forever.
+          I didn't know it at the time, but the research I would conduct
+          throughout my Peace Corps service would change my life.
         </p>
         <p>
           Though I spoke not a word of Quechua, I fell in love with the process
-          of solving problems by putting people at center stage.
+          of problem solving through the lens of the user.
         </p>
         <p>
-          However, it was graduate study at Berkley's School of Information that
-          helped me find my calling - applying the process of human centered
-          design to the development of technology.
+          Graduate study at Berkley's School of Information refined my process
+          of human centered design, and helped me find my passion for
+          technology.
         </p>
         <p>
-          I now design user experiences at EchoUser, where I help clients bring
-          transformational products and services to life.
+          I now create user experiences at EchoUser, where I help clients bring
+          about transformation though human-centered products and services.
         </p>
       </div>
     </div>
+    <Footer />
   </div>
 )
 

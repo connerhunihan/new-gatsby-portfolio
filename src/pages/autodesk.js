@@ -82,72 +82,74 @@ const Autodesk = () => {
   return (
     <div>
       <Header />
-      <div className="small-left-right-margin full-vh">
-        <div className="banner project">
-          <p>
-            The <Link to="https://www.autodesk.com/">Autodesk</Link> Data
-            Platform (ADP) combines datasets from across the company into a
-            single warehouse, offering unparalleled insight for product teams.
-            <br />
-            <br />
-            But you needed to know how to use it.
-          </p>
-        </div>
-        <div className="project-components">
-          <div className="component-1">
-            <h3>Skills</h3>
+      <div className="full-vh">
+        <div className="small-left-right-margin">
+          <div className="banner project">
             <p>
-              Workshop facilitation, user research, prototyping, concept
-              validation
-            </p>
-          </div>
-          <div className="component-2">
-            <h3>Team</h3>
-            <p>
-              Conner Hunihan (Product Manager)
+              The <Link to="https://www.autodesk.com/">Autodesk</Link> Data
+              Platform (ADP) combines datasets from across the company into a
+              single warehouse, offering unparalleled insight for product teams.
               <br />
-              Kristen Zhou (Product Manager)
               <br />
-              Carlo Liquido (Data Engineer)
+              But you needed to know how to use it.
             </p>
           </div>
-          <div className="component-3">
-            <h3>Duration</h3>
-            <p>10 weeks</p>
-          </div>
-          <div className="component-4">
-            <h3>Essential Questions</h3>
-            <p>
-              How might the product balance simplification with technical
-              robustness?
-            </p>
-            <p>
-              Specifically, how does the platform need to cater to needs of the
-              various distinct user groups?
-            </p>
+          <div className="project-components">
+            <div className="component-1">
+              <h3>Skills</h3>
+              <p>
+                Workshop facilitation, user research, prototyping, concept
+                validation
+              </p>
+            </div>
+            <div className="component-2">
+              <h3>Team</h3>
+              <p>
+                Conner Hunihan (Product Manager)
+                <br />
+                Kristen Zhou (Product Manager)
+                <br />
+                Carlo Liquido (Data Engineer)
+              </p>
+            </div>
+            <div className="component-3">
+              <h3>Duration</h3>
+              <p>10 weeks</p>
+            </div>
+            <div className="component-4">
+              <h3>Essential Questions</h3>
+              <p>
+                How might the product balance simplification with technical
+                robustness?
+              </p>
+              <p>
+                Specifically, how does the platform need to cater to needs of
+                the various distinct user groups?
+              </p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className="large-left-right-margin">
-        <div className="paragraph large-top-bottom-margin">
-          <h3>
-            The community doesn’t know what data is on the platform, or how to
-            access it
-          </h3>
-          <p>
-            20+ interviews, two workshops, and a community survey revealed
-            distinct user groups within ADP, each of which had their own data
-            needs, technological proficiencies, and preference for learning.
-            While knowledge needs varied across these groups, there were
-            unanimously reported frustrations with transparency of data, as well
-            as with understanding the process of using the platform.
-          </p>
+        <div className="large-left-right-margin">
+          <div className="paragraph large-top-bottom-margin">
+            <h3>
+              The community doesn’t know what data is on the platform, or how to
+              access it
+            </h3>
+            <p>
+              20+ interviews, two workshops, and a community survey revealed
+              distinct user groups within ADP, each of which had their own data
+              needs, technological proficiencies, and preference for learning.
+              While knowledge needs varied across these groups, there were
+              unanimously reported frustrations with transparency of data, as
+              well as with understanding the process of using the platform.
+            </p>
 
-          <Img
-            style={{ width: "75%", margin: "7% auto 0 auto" }} // top right bottom left
-            fluid={data.users.childImageSharp.fluid}
-          />
+            <Img
+              style={{ width: "75%", margin: "7% auto 0 auto" }} // top right bottom left
+              fluid={data.users.childImageSharp.fluid}
+            />
+          </div>
         </div>
       </div>
 

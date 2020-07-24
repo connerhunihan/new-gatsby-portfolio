@@ -24,47 +24,49 @@ const Mighty = () => {
   return (
     <div>
       <Header />
-      <div className="small-left-right-margin full-vh">
-        <div className="banner project">
-          <p>
-            The <Link to="https://www.mightyportfolio.com/">Mighty</Link> team
-            had a vision –<br /> an product experience that was disciplined,
-            steeped in principles, and designed specifically for the 21st
-            century investor.
-          </p>
-        </div>
-        <div className="project-components">
-          <div className="component-1">
-            <h3>Skills</h3>
+      <div className="full-vh">
+        <div className="small-left-right-margin">
+          <div className="banner project">
             <p>
-              User research, concept modeling, wireframing, prototyping,
-              validation testing, hi-fidelity design
+              The <Link to="https://www.mightyportfolio.com/">Mighty</Link> team
+              had a vision –<br /> an product experience that was disciplined,
+              steeped in principles, and designed specifically for the 21st
+              century investor.
             </p>
           </div>
-          <div className="component-2">
-            <h3>Team</h3>
-            <p>
-              Conner Hunihan (Design Lead)
-              <br />
-              Yi-ying Lin (UX Designer)
-              <br />
-              Rally Pugalayan (Account Manager)
-            </p>
-          </div>
-          <div className="component-3">
-            <h3>Duration</h3>
-            <p>6 months</p>
-          </div>
-          <div className="component-4">
-            <h3>Essential Questions</h3>
-            <p>
-              How can the product support complex, technical workflows, while
-              also simplifying users’ everyday lives?
-            </p>
-            <p>
-              For a user group that trades information like currency, how can a
-              product put that currency to work?
-            </p>
+          <div className="project-components">
+            <div className="component-1">
+              <h3>Skills</h3>
+              <p>
+                User research, concept modeling, wireframing, prototyping,
+                validation testing, hi-fidelity design
+              </p>
+            </div>
+            <div className="component-2">
+              <h3>Team</h3>
+              <p>
+                Conner Hunihan (Design Lead)
+                <br />
+                Yi-ying Lin (UX Designer)
+                <br />
+                Rally Pugalayan (Account Manager)
+              </p>
+            </div>
+            <div className="component-3">
+              <h3>Duration</h3>
+              <p>6 months</p>
+            </div>
+            <div className="component-4">
+              <h3>Essential Questions</h3>
+              <p>
+                How can the product support complex, technical workflows, while
+                also simplifying users’ everyday lives?
+              </p>
+              <p>
+                For a user group that trades information like currency, how can
+                a product put that currency to work?
+              </p>
+            </div>
           </div>
         </div>
       </div>
