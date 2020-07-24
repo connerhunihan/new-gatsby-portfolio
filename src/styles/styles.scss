@@ -96,6 +96,11 @@ body {
     // min-width: 768px;
   }
 }
+.smallest-left-right-margin {
+  display: inline-block;
+  margin: 0% 10%; // top-bottom left-right
+  width: 75%;
+}
 
 .small-left-right-margin.full-vh {
   height: 100vh;
@@ -177,14 +182,14 @@ header {
 .paragraph {
   h3 {
     font-weight: 400;
-    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
-    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(14px + (23 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.2em + (1.4 - 1.2) * ((100vw - 300px) / (1600 - 300)));
     letter-spacing: 1.3px;
     color: $black;
   }
   p {
-    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
-    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(14px + (23 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.2em + (1.4 - 1.2) * ((100vw - 300px) / (1600 - 300)));
     letter-spacing: 1.3px;
     font-weight: 300;
     color: $black;

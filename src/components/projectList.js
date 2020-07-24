@@ -28,7 +28,7 @@ const ProjectList = () => {
         <div>
           <Link to="/cc">
             <h3>Creative Commons</h3>
-            <p>Redefining how we all license content.</p>
+            <p>Design a licensing experience, at scale.</p>
           </Link>
         </div>
         <div>

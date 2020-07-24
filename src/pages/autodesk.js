@@ -20,21 +20,21 @@ const Autodesk = () => {
       }
       conceptModel: file(relativePath: { eq: "autodesk-concept-model.png" }) {
         childImageSharp {
-          fluid(maxWidth: 1000) {
+          fluid(maxWidth: 2500) {
             ...GatsbyImageSharpFluid
           }
         }
       }
       feedback: file(relativePath: { eq: "autodesk-feedback.png" }) {
         childImageSharp {
-          fluid(maxWidth: 1000) {
+          fluid(maxWidth: 2500) {
             ...GatsbyImageSharpFluid
           }
         }
       }
       final: file(relativePath: { eq: "autodesk-final.png" }) {
         childImageSharp {
-          fluid(maxWidth: 1000) {
+          fluid(maxWidth: 2500) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -48,7 +48,7 @@ const Autodesk = () => {
       }
       prototypeTesting: file(relativePath: { eq: "autodesk-prototype.png" }) {
         childImageSharp {
-          fluid(maxWidth: 1000) {
+          fluid(maxWidth: 2500) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -57,7 +57,7 @@ const Autodesk = () => {
         relativePath: { eq: "autodesk-service-blueprint.png" }
       ) {
         childImageSharp {
-          fluid(maxWidth: 1000) {
+          fluid(maxWidth: 2500) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -211,6 +211,7 @@ const Autodesk = () => {
             that would need to be included in the product experience, as well.
           </p>
           <Img
+            style={{ width: "85%", margin: "7% auto 0 auto" }} // top right bottom left
             className="top-margin"
             fluid={data.conceptModel.childImageSharp.fluid}
           />
@@ -235,6 +236,7 @@ const Autodesk = () => {
             works and what didn’t for teams that have gone before).
           </p>
           <Img
+            style={{ width: "85%", margin: "7% auto 0 auto" }} // top right bottom left
             className="top-margin"
             fluid={data.serviceBlueprint.childImageSharp.fluid}
           />
@@ -266,7 +268,10 @@ const Autodesk = () => {
 
       <div className="large-left-right-margin">
         <div className="paragraph">
-          <Img fluid={data.prototypeTesting.childImageSharp.fluid} />
+          <Img
+            style={{ width: "85%", margin: "7% auto 0 auto" }}
+            fluid={data.prototypeTesting.childImageSharp.fluid}
+          />
           <p className="top-margin">
             Users praised the high-level overview and guidance that the site
             would offer, but commented that many of the details required to
@@ -274,6 +279,7 @@ const Autodesk = () => {
           </p>
           <Img
             className="top-margin"
+            style={{ width: "85%", margin: "7% auto 0 auto" }} // top right bottom left
             fluid={data.feedback.childImageSharp.fluid}
           />
         </div>
@@ -290,6 +296,7 @@ const Autodesk = () => {
             Experience team.
           </p>
           <Img
+            style={{ width: "85%", margin: "7% auto 0 auto" }} // top right bottom left
             className="top-margin"
             fluid={data.final.childImageSharp.fluid}
           />
