@@ -20,8 +20,8 @@ const ProjectList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/apple">
-            <h3>Apple</h3>
+          <Link to="/largetechcompany">
+            <h3>Very Large Tech Company</h3>
             <p>Unifying the administrative experience.</p>
           </Link>
         </div>
