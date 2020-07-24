@@ -10,7 +10,7 @@ const ProjectList = () => {
         <div>
           <Link to="/autodesk">
             <h3>Autodesk</h3>
-            <p>Simplifying access to big data.</p>
+            <p>Simplifying access to big data products.</p>
           </Link>
         </div>
         <div>
@@ -28,30 +28,30 @@ const ProjectList = () => {
         <div>
           <Link to="/cc">
             <h3>Creative Commons</h3>
-            <p>Design a licensing experience, at scale.</p>
+            <p>Designing content licensing to scale.</p>
           </Link>
         </div>
-        <div>
+        {/* <div>
           <Link to="/nueva">
             <h3>Nueva</h3>
             <p>Building culture, with story.</p>
           </Link>
-        </div>
+        </div> */}
         <div>
           <Link to="/ccwip">
             <h3>CCWIP</h3>
-            <p>Simplifying state-wide data reporting.</p>
+            <p>Modernizing childwelfare reporting.</p>
           </Link>
         </div>
-        <div>
+        {/* <div>
           <Link to="/ucberkeley">
             <h3>UC Berkeley</h3>
             <p>Improving enrollment.</p>
           </Link>
-        </div>
+        </div> */}
         <div>
           <Link to="/scisip">
-            <h3>NSF</h3>
+            <h3>National Science Foundation</h3>
             <p>Advancing innovation policy.</p>
           </Link>
         </div>
