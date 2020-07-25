@@ -182,18 +182,10 @@ header {
   margin: 3vh 0;
 }
 
-//Project Page
+//Project Pages
 .half-width {
   position: flex;
-  width: 50%;
-  @media (max-width: 1200px) {
-    position: flex;
-    width: 100%;
-  }
-  @media (max-width: 976px) {
-    position: flex;
-    width: 100%;
-  }
+  width: 100%;
 }
 
 .half-width.image-right {
@@ -251,7 +243,8 @@ header {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 15rem;
+  // grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 5rem;
   @media (max-width: 1200px) {
     grid-gap: 5rem;
   }
@@ -259,12 +252,6 @@ header {
     grid-gap: 0;
   }
 }
-
-// .breweries > ul {
-//   display: grid;
-//   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-//   grid-gap: 1rem;
-// }
 
 .paragraph.protected {
   height: 25vh;

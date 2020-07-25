@@ -131,7 +131,7 @@ const Autodesk = () => {
         </div>
 
         <div className="large-left-right-margin">
-          <div className="paragraph large-top-bottom-margin">
+          <div className="paragraph">
             <h3>
               The community doesn’t know what data is on the platform, or how to
               access it
@@ -153,55 +153,78 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div className="large-left-right-margin">
-        <div className="half-width">
-          <div className="paragraph">
-            <h3>
-              Design for a single product experience to start small and move
-              fast
-            </h3>
-            <p>
-              In collaboration with a consulting team from{" "}
-              <Link to="https://www.fjordnet.com/">Fjord</Link>, core ADP
-              functionality was divided into four distinct product categories:
-              Analytics, Data, Core Services, and Support. Within those
-              categories lay individual product experiences, the most
-              complicated of which was selected as a candidate for prototyping.
-            </p>
-          </div>
-        </div>
-        <div className="half-width image-right">
-          <Img fluid={data.products.childImageSharp.fluid} />
-        </div>
-      </div>
-
       <div
-        style={{ margin: "7% auto 0 auto" }}
+        style={{ margin: "10% auto 0 auto" }}
         className="large-left-right-margin"
       >
-        <div className="half-width">
-          <div className="paragraph">
-            <h3>
-              Card sort with users to restructure the existing data portal
-            </h3>
-            <p>
-              Utilizing the existing data portal property would take advantage
-              of existing awareness within the community, but the information
-              architecture needed revision in order to suit the new product
-              categorization.
-            </p>
-          </div>
-        </div>
-        <div className="half-width image-right">
-          <Img
-            style={{ height: "25vh" }}
-            fluid={data.cardSorting.childImageSharp.fluid}
-          />
+        <div className="paragraph">
+          <ul>
+            <li>
+              <div>
+                <h3>
+                  Design for a single product experience to start small and move
+                  fast
+                </h3>
+                <p>
+                  In collaboration with a consulting team from{" "}
+                  <Link to="https://www.fjordnet.com/">Fjord</Link>, core ADP
+                  functionality was divided into four distinct product
+                  categories: Analytics, Data, Core Services, and Support.
+                  Within those categories lay individual product experiences,
+                  the most complicated of which was selected as a candidate for
+                  prototyping.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div className="half-width">
+                <Img
+                  style={{ width: "75%", margin: "7% auto 0 auto" }} // top right bottom left
+                  fluid={data.products.childImageSharp.fluid}
+                />
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
 
       <div
-        style={{ margin: "7% auto 0 auto" }}
+        style={{ margin: "5% auto 0 auto" }}
+        className="large-left-right-margin"
+      >
+        <div className="paragraph">
+          <ul>
+            <li>
+              <div>
+                <h3>
+                  Card sort with users to restructure the existing data portal
+                </h3>
+                <p>
+                  Utilizing the existing data portal property would take
+                  advantage of existing awareness within the community, but the
+                  information architecture needed revision in order to suit the
+                  new product categorization.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div className="half-width">
+                <Img
+                  style={{
+                    margin: "5% auto 0 auto",
+                    height: "25vh",
+                    width: "75%",
+                  }}
+                  fluid={data.cardSorting.childImageSharp.fluid}
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        style={{ margin: "10% auto 0 auto" }}
         className="large-left-right-margin"
       >
         <div className="paragraph">
@@ -213,7 +236,7 @@ const Autodesk = () => {
             that would need to be included in the product experience, as well.
           </p>
           <Img
-            style={{ width: "85%", margin: "7% auto 0 auto" }} // top right bottom left
+            style={{ width: "85%", margin: "3% auto 0 auto" }} // top right bottom left
             className="top-margin"
             fluid={data.conceptModel.childImageSharp.fluid}
           />
@@ -221,7 +244,7 @@ const Autodesk = () => {
       </div>
 
       <div
-        style={{ margin: "7% auto 0 auto" }}
+        style={{ margin: "10% auto 0 auto" }}
         className="large-left-right-margin"
       >
         <div className="paragraph">
@@ -238,7 +261,7 @@ const Autodesk = () => {
             works and what didn’t for teams that have gone before).
           </p>
           <Img
-            style={{ width: "85%", margin: "7% auto 0 auto" }} // top right bottom left
+            style={{ width: "85%", margin: "3% auto 0 auto" }} // top right bottom left
             className="top-margin"
             fluid={data.serviceBlueprint.childImageSharp.fluid}
           />
@@ -246,32 +269,43 @@ const Autodesk = () => {
       </div>
 
       <div
-        style={{ margin: "7% auto 0 auto" }}
+        style={{ margin: "10% auto 0 auto" }}
         className="large-left-right-margin"
       >
-        <div className="half-width">
-          <div className="paragraph">
-            <h3>Testing a prototype</h3>
-            <p>
-              A low-fidelity, clickable prototype of the “Development and ETL”
-              data product was designed around three core concepts: clarifying
-              the process, surfacing resources, and including technical details.
-              This was tested on-site with data engineers over two sessions.
-            </p>
-          </div>
-        </div>
-        <div className="half-width image-right">
-          <Img
-            style={{ height: "25vh" }}
-            fluid={data.testing.childImageSharp.fluid}
-          />
+        <div className="paragraph">
+          <ul>
+            <li>
+              <div>
+                <h3>Testing a prototype</h3>
+                <p>
+                  A low-fidelity, clickable prototype of the “Development and
+                  ETL” data product was designed around three core concepts:
+                  clarifying the process, surfacing resources, and including
+                  technical details. This was tested on-site with data engineers
+                  over two sessions.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div className="half-width">
+                <Img
+                  style={{
+                    margin: "5% auto 0 auto",
+                    height: "25vh",
+                    width: "100%",
+                  }}
+                  fluid={data.testing.childImageSharp.fluid}
+                />
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
 
       <div className="large-left-right-margin">
         <div className="paragraph">
           <Img
-            style={{ width: "85%", margin: "7% auto 0 auto" }}
+            style={{ width: "85%", margin: "5% auto 0 auto" }}
             fluid={data.prototypeTesting.childImageSharp.fluid}
           />
           <p className="top-margin">
@@ -281,13 +315,13 @@ const Autodesk = () => {
           </p>
           <Img
             className="top-margin"
-            style={{ width: "85%", margin: "7% auto 0 auto" }} // top right bottom left
+            style={{ width: "85%", margin: "5% auto 0 auto" }} // top right bottom left
             fluid={data.feedback.childImageSharp.fluid}
           />
         </div>
       </div>
       <div
-        style={{ margin: "7% auto 0 auto" }}
+        style={{ margin: "10% auto 0 auto" }}
         className="large-left-right-margin"
       >
         <div className="paragraph">

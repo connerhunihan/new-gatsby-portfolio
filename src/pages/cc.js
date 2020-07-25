@@ -238,22 +238,30 @@ const Autodesk = () => {
         style={{ margin: "7% auto 0 auto" }}
         className="large-left-right-margin"
       >
-        <div className="half-width">
+        <div>
           <div className="paragraph">
-            <h3>Putting licenses in context</h3>
-            <p>
-              Utilizing the existing data portal property would take advantage
-              of existing awareness within the community, but the information
-              architecture needed revision in order to suit the new product
-              categorization.
-            </p>
+            <ul>
+              <li>
+                <div>
+                  <h3>Putting licenses in context</h3>
+                  <p>
+                    Utilizing the existing data portal property would take
+                    advantage of existing awareness within the community, but
+                    the information architecture needed revision in order to
+                    suit the new product categorization.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div className="half-width">
+                  <Img
+                    style={{ width: "65%", margin: "0 auto 0 auto" }} // top right bottom left
+                    fluid={data.context.childImageSharp.fluid}
+                  />
+                </div>
+              </li>
+            </ul>
           </div>
-        </div>
-        <div className="half-width image-right">
-          <Img
-            style={{ width: "65%", margin: "0 auto 0 auto" }} // top right bottom left
-            fluid={data.context.childImageSharp.fluid}
-          />
         </div>
       </div>
 
@@ -261,23 +269,30 @@ const Autodesk = () => {
         style={{ margin: "0% auto 0 auto" }}
         className="large-left-right-margin"
       >
-        <div className="half-width">
-          <div className="paragraph">
-            <h3>Explaining license components</h3>
-            <p>
-              The CC website has a page that outlines the fundamental building
-              blocks of every license. These components are combined in
-              different ways to produce license with varying degrees of
-              restriction. Understanding these pieces allows users to craft,
-              exactly, the protection placed on their content.
-            </p>
-          </div>
-        </div>
-        <div className="half-width image-right">
-          <Img
-            style={{ width: "75%", margin: "0 auto 0 auto" }} // top right bottom left
-            fluid={data.components.childImageSharp.fluid}
-          />
+        <div className="paragraph">
+          <ul>
+            <li>
+              <div>
+                <h3>Explaining license components</h3>
+                <p>
+                  The CC website has a page that outlines the fundamental
+                  building blocks of every license. These components are
+                  combined in different ways to produce license with varying
+                  degrees of restriction. Understanding these pieces allows
+                  users to craft, exactly, the protection placed on their
+                  content.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div className="half-width">
+                <Img
+                  style={{ width: "75%", margin: "0 auto 0 auto" }} // top right bottom left
+                  fluid={data.components.childImageSharp.fluid}
+                />
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
 
@@ -285,23 +300,30 @@ const Autodesk = () => {
         style={{ margin: "0% auto 0 auto" }}
         className="large-left-right-margin"
       >
-        <div className="half-width">
-          <div className="paragraph">
-            <h3>Third-party integration</h3>
-            <p>
-              In the absence of a robust license chooser tool, many third-party
-              content platforms have taken it upon themselves to design a CC
-              licensing experience, as part of the content upload flow. Though
-              these platforms have taken steps toward a fully portable-tool,
-              there is no consistency or standardization.
-            </p>
-          </div>
-        </div>
-        <div className="half-width image-right">
-          <Img
-            style={{ width: "75%", margin: "0 auto 0 auto" }} // top right bottom left
-            fluid={data.modularization.childImageSharp.fluid}
-          />
+        <div className="paragraph">
+          <ul>
+            <li>
+              <div>
+                <h3>Third-party integration</h3>
+                <p>
+                  In the absence of a robust license chooser tool, many
+                  third-party content platforms have taken it upon themselves to
+                  design a CC licensing experience, as part of the content
+                  upload flow. Though these platforms have taken steps toward a
+                  fully portable-tool, there is no consistency or
+                  standardization.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div className="half-width">
+                <Img
+                  style={{ width: "75%", margin: "0 auto 0 auto" }} // top right bottom left
+                  fluid={data.modularization.childImageSharp.fluid}
+                />
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
 
@@ -394,25 +416,31 @@ const Autodesk = () => {
         style={{ margin: "3% auto 0 auto" }}
         className="large-left-right-margin"
       >
-        <div className="half-width">
-          <div className="paragraph">
-            <h3>
-              <strike>"Recommended option"</strike>
-            </h3>
-            <p>
-              In order to minimize choice aversion, a recommendation could be
-              offered, as well as two attribute-based alternatives. While this
-              streamlined the selection process, users found it too simplistic,
-              “my work is too important…I need to know more about the details of
-              this license before I can trust it."
-            </p>
-          </div>
-        </div>
-        <div className="half-width image-right">
-          <Img
-            style={{ width: "100%", margin: "0 auto 0 auto" }} // top right bottom left
-            fluid={data.recommendations.childImageSharp.fluid}
-          />
+        <div className="paragraph">
+          <ul>
+            <li>
+              <div>
+                <h3>
+                  <strike>"Recommended option"</strike>
+                </h3>
+                <p>
+                  In order to minimize choice aversion, a recommendation could
+                  be offered, as well as two attribute-based alternatives. While
+                  this streamlined the selection process, users found it too
+                  simplistic, “my work is too important…I need to know more
+                  about the details of this license before I can trust it."
+                </p>
+              </div>
+            </li>
+            <li>
+              <div className="half-width">
+                <Img
+                  style={{ width: "100%", margin: "0 auto 0 auto" }} // top right bottom left
+                  fluid={data.recommendations.childImageSharp.fluid}
+                />
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
 
@@ -420,25 +448,32 @@ const Autodesk = () => {
         style={{ margin: "3% auto 0 auto" }}
         className="large-left-right-margin"
       >
-        <div className="half-width">
-          <div className="paragraph">
-            <h3>
-              <strike>"Wizard"</strike>
-            </h3>
-            <p>
-              The mechanism on the existing Chooser Tool is a wizard which, from
-              a decisional perspective, is the most usable. However, a wizard
-              does not facilitate exploration outside of the confines of the
-              component you are selecting. This results in long-time users who,
-              while they have the correct license, do not understand it.
-            </p>
-          </div>
-        </div>
-        <div className="half-width image-right">
-          <Img
-            style={{ width: "100%", margin: "0 auto 0 auto" }} // top right bottom left
-            fluid={data.wizard.childImageSharp.fluid}
-          />
+        <div className="paragraph">
+          <ul>
+            <li>
+              <div>
+                <h3>
+                  <strike>"Wizard"</strike>
+                </h3>
+                <p>
+                  The mechanism on the existing Chooser Tool is a wizard which,
+                  from a decisional perspective, is the most usable. However, a
+                  wizard does not facilitate exploration outside of the confines
+                  of the component you are selecting. This results in long-time
+                  users who, while they have the correct license, do not
+                  understand it.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div className="half-width">
+                <Img
+                  style={{ width: "100%", margin: "0 auto 0 auto" }} // top right bottom left
+                  fluid={data.wizard.childImageSharp.fluid}
+                />
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
 

@@ -164,54 +164,64 @@ const Autodesk = () => {
         style={{ margin: "3% auto 0 auto" }}
         className="large-left-right-margin"
       >
-        <div className="half-width">
-          <div className="paragraph">
-            <h3>
-              <strike>Purely publishing & marketing</strike>
-            </h3>
-            <p>
-              An information architecture that focuses on core concepts of the
-              SciSIP program and funded research was mocked up and shared with
-              administrators for feedback. Immediately, the team realized that
-              PIs needed to be featured more prominently.
-            </p>
-          </div>
-        </div>
-        <div className="half-width image-right">
-          <Img
-            style={{ width: "85%", margin: "0 auto 0 auto" }} // top right bottom left
-            fluid={data.architecture1.childImageSharp.fluid}
-          />
+        <div className="paragraph">
+          <ul>
+            <li>
+              <div>
+                <h3>
+                  <strike>Purely publishing & marketing</strike>
+                </h3>
+                <p>
+                  An information architecture that focuses on core concepts of
+                  the SciSIP program and funded research was mocked up and
+                  shared with administrators for feedback. Immediately, the team
+                  realized that PIs needed to be featured more prominently.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div className="half-width">
+                <Img
+                  style={{ width: "85%", margin: "0 auto 0 auto" }} // top right bottom left
+                  fluid={data.architecture1.childImageSharp.fluid}
+                />
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
 
       <div
-        style={{ margin: "0% auto 0 auto" }}
+        style={{ margin: "5% auto 0 auto" }}
         className="large-left-right-margin"
       >
-        <div className="half-width">
-          <div className="paragraph">
-            <h3>Research + Community + Program</h3>
-            <p>
-              The final structure of the site places equal emphasis on research
-              content, the community of PIs, and the SciSIP program. The
-              exercise also helped refine the categorization schema of research.
-            </p>
-          </div>
-        </div>
-        <div className="half-width image-right">
-          <Img
-            style={{ width: "85%", margin: "0 auto 0 auto" }} // top right bottom left
-            fluid={data.architecture2.childImageSharp.fluid}
-          />
+        <div className="paragraph">
+          <ul>
+            <li>
+              <div>
+                <h3>Research + Community + Program</h3>
+                <p>
+                  The final structure of the site places equal emphasis on
+                  research content, the community of PIs, and the SciSIP
+                  program. The exercise also helped refine the categorization
+                  schema of research.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div className="half-width">
+                <Img
+                  style={{ width: "85%", margin: "0 auto 0 auto" }} // top right bottom left
+                  fluid={data.architecture2.childImageSharp.fluid}
+                />
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
 
       <div className="large-left-right-margin">
-        <div
-          style={{ margin: "7% auto 10% auto" }}
-          className="paragraph small-top-bottom-margin"
-        >
+        <div style={{ margin: "10% auto 10% auto" }} className="paragraph">
           <h3>
             Wireframing to refine feature functionality and content
             representation
@@ -222,7 +232,7 @@ const Autodesk = () => {
             where – and how – content is surfaced to users.
           </p>
           <Img
-            style={{ width: "75%", margin: "7% auto 0 auto" }} // top right bottom left
+            style={{ width: "75%", margin: "5% auto 0 auto" }} // top right bottom left
             fluid={data.wireframes.childImageSharp.fluid}
           />
         </div>
@@ -242,7 +252,7 @@ const Autodesk = () => {
             in through multiple, higher-fidelity design iterations (right).
           </p>
           <Img
-            style={{ width: "100%", margin: "7% auto 0 auto" }} // top right bottom left
+            style={{ width: "100%", margin: "5% auto 0 auto" }} // top right bottom left
             fluid={data.minnow.childImageSharp.fluid}
           />
         </div>
@@ -250,7 +260,7 @@ const Autodesk = () => {
 
       <div className="large-left-right-margin">
         <div
-          style={{ margin: "10% auto 0% auto" }}
+          style={{ margin: "10% auto 10% auto" }}
           className="paragraph small-top-bottom-margin"
         >
           <h3>The finished product</h3>
