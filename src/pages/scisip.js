@@ -192,7 +192,7 @@ const Autodesk = () => {
       </div>
 
       <div
-        style={{ margin: "5% auto 0 auto" }}
+        style={{ margin: "5% auto 10% auto" }}
         className="large-left-right-margin"
       >
         <div className="paragraph">
