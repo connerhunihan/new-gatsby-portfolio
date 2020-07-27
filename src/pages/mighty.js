@@ -28,10 +28,9 @@ const Mighty = () => {
         <div className="small-left-right-margin">
           <div className="banner project">
             <p>
-              The <Link to="https://www.mightyportfolio.com/">Mighty</Link> team
-              had a vision –<br /> an product experience that was disciplined,
-              steeped in principles, and designed specifically for the 21st
-              century investor.
+              Evaluative & generative user research, wireframing and prototyping
+              to redesign an existing venture capital product for{" "}
+              <Link to="https://www.mightyportfolio.com/">Mighty</Link>.
             </p>
           </div>
           <div className="project-components">
@@ -59,12 +58,12 @@ const Mighty = () => {
             <div className="component-4">
               <h3>Essential Questions</h3>
               <p>
-                How can the product support complex, technical workflows, while
-                also simplifying users’ everyday lives?
+                How might we support complex, technical workflows, while also
+                simplifying users’ everyday lives?
               </p>
               <p>
-                For a user group that trades information like currency, how can
-                a product put that currency to work?
+                How might we put information to work for users in a way that
+                creates additional value?
               </p>
             </div>
           </div>

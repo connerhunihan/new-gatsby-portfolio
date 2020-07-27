@@ -10,18 +10,18 @@ const ProjectList = () => {
         <div>
           <Link to="/autodesk">
             <h3>Autodesk</h3>
-            <p>Simplifying access to big data products.</p>
+            <p>Simplifying big data products.</p>
           </Link>
         </div>
         <div>
           <Link to="/mighty">
             <h3>Mighty</h3>
-            <p>Modernizing venture capital workflows.</p>
+            <p>Managing venture capital.</p>
           </Link>
         </div>
         <div>
           <Link to="/largetechcompany">
-            <h3>Tech Company</h3>
+            <h3>Large Technology Company</h3>
             <p>Unifying the administrative experience.</p>
           </Link>
         </div>
@@ -40,7 +40,7 @@ const ProjectList = () => {
         <div>
           <Link to="/ccwip">
             <h3>CCWIP</h3>
-            <p>Modernizing childwelfare reporting.</p>
+            <p>Making child welfare data more accessible.</p>
           </Link>
         </div>
         {/* <div>

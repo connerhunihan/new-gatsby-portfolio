@@ -124,11 +124,11 @@ const Autodesk = () => {
             <div className="component-4">
               <h3>Essential Questions</h3>
               <p>
-                How might we design the chooser tool so that third-party content
-                platforms can incorporate it out-of-the-box?
+                How can the design enable third-party content platforms to
+                easily incorporate the license chooser tool out-of-the-box?
               </p>
               <p>
-                How can we frame licensing decisions in a way that allows users
+                How can licensing decisions be framed in a way that allows users
                 to make informed decisions, without needing to learn technical
                 details?
               </p>
@@ -186,6 +186,7 @@ const Autodesk = () => {
                       "calc(2.4rem + (3.5 - 2.4) * ((100vw - 300px) / (1600 - 300)))",
                     letterSpacing: "0.14rem",
                     fontWeight: 100,
+                    margin: "10% auto 0 auto",
                   }}
                 >
                   <em>
