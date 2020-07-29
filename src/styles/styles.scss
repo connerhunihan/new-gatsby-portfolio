@@ -18,7 +18,7 @@ body {
 
 //Utilities
 .top-margin {
-  margin: 6% 0 0 0; // top right bottom left
+  margin: 10% 0 0 0; // top right bottom left
 }
 .top-bottom-margin {
   margin: 10% 0%; // top-bottom left-right
@@ -243,7 +243,6 @@ header {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  // grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 5rem;
   @media (max-width: 1200px) {
     grid-gap: 5rem;
