@@ -22,13 +22,13 @@ const ProjectList = () => {
         <div>
           <Link to="/largetechcompany">
             <h3>Large Technology Company</h3>
-            <p>Unifying the administrative experience.</p>
+            <p>Forging a single administrative experience.</p>
           </Link>
         </div>
         <div>
           <Link to="/cc">
             <h3>Creative Commons</h3>
-            <p>Designing content licensing to scale.</p>
+            <p>Licensing content.</p>
           </Link>
         </div>
         {/* <div>
