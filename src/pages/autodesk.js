@@ -119,12 +119,12 @@ const Autodesk = () => {
             <div className="component-4">
               <h3>Essential Questions</h3>
               <p>
-                How might the product balance simplification with technical
+                How should the product balance simplification and technical
                 robustness?
               </p>
               <p>
-                Specifically, how does the platform need to cater to needs of
-                the various distinct user groups?
+                Specifically, how should the platform cater to the needs of the
+                various distinct user groups?
               </p>
             </div>
           </div>
@@ -153,11 +153,8 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "10% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
-        <div className="paragraph">
+      <div className="large-left-right-margin">
+        <div className="paragraph top-margin">
           <ul>
             <li>
               <div>
@@ -188,11 +185,8 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "5% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
-        <div className="paragraph">
+      <div className="large-left-right-margin">
+        <div className="paragraph top-margin">
           <ul>
             <li>
               <div>
@@ -223,11 +217,8 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "10% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
-        <div className="paragraph">
+      <div className="large-left-right-margin">
+        <div className="paragraph top-margin">
           <h3>Concept model</h3>
           <p>
             A concept model was created to map the mental model users had, to
@@ -243,11 +234,8 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "10% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
-        <div className="paragraph">
+      <div className="large-left-right-margin">
+        <div className="paragraph top-margin">
           <h3>Three distinct pain points in the process</h3>
           <p>
             A service design blueprint was created to visually represent paint
@@ -268,11 +256,8 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "10% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
-        <div className="paragraph">
+      <div className="large-left-right-margin">
+        <div className="paragraph top-margin">
           <ul>
             <li>
               <div>
@@ -301,30 +286,26 @@ const Autodesk = () => {
           </ul>
         </div>
       </div>
-
       <div className="large-left-right-margin">
         <div className="paragraph">
           <Img
-            style={{ width: "85%", margin: "5% auto 0 auto" }}
+            style={{ width: "85%", margin: "3% auto 0 auto" }}
             fluid={data.prototypeTesting.childImageSharp.fluid}
           />
-          <p className="top-margin">
+          <p className="small-top-bottom-margin">
             Users praised the high-level overview and guidance that the site
             would offer, but commented that many of the details required to
             actually run an ETL are not documented on any source.
           </p>
           <Img
             className="top-margin"
-            style={{ width: "85%", margin: "5% auto 0 auto" }} // top right bottom left
+            style={{ width: "85%", margin: "2% auto 0 auto" }} // top right bottom left
             fluid={data.feedback.childImageSharp.fluid}
           />
         </div>
       </div>
-      <div
-        style={{ margin: "10% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
-        <div className="paragraph">
+      <div className="large-left-right-margin">
+        <div className="paragraph top-margin">
           <h3>Applying Autodesk branding</h3>
           <p>
             Comments from usability tests were incorporated into a final,
@@ -332,7 +313,7 @@ const Autodesk = () => {
             Experience team.
           </p>
           <Img
-            style={{ width: "85%", margin: "7% auto 0 auto" }} // top right bottom left
+            style={{ width: "85%", margin: "7% auto 10% auto" }} // top right bottom left
             className="top-margin"
             fluid={data.final.childImageSharp.fluid}
           />

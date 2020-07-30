@@ -190,26 +190,21 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "10% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
-        <div className="paragraph">
+      <div className="large-left-right-margin">
+        <div className="paragraph top-margin">
           <ul>
             <li>
               <div>
                 <h3>Framing the opportunity</h3>
                 <p>
-                  A content audit of the existing CCWIP site was undertaken to
-                  triage design effort, and to further develop the team’s
-                  intuition for the kind of content CCWIP produces. Three issues
-                  were identified and confirmed by CCWIP staff:{" "}
+                  Conversations with CCWIP staff and a content audit of the
+                  existing site revealed three critical issues:{" "}
                   <b>unclear hierarchy</b> (users don't how to find data they
                   need), <b>lack of guidance</b> (users don't always know what
                   metric to look for) and <b>poor navigation</b> (users need to
-                  jump between measures and reports). Synthesizing these
-                  considerations into a single problem statement gave structure
-                  to the project and the team’s design approach.
+                  jump between measures and reports). Synthesizing these issues
+                  into a single problem statement gave structure to the project
+                  and the team’s design approach.
                 </p>
               </div>
             </li>
@@ -238,12 +233,9 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        className="large-left-right-margin"
-        style={{ margin: "10% auto 0 auto" }}
-      >
-        <div className="paragraph small-top-bottom-margin">
-          <h3>Prioritizing a single user group, among the many contenders</h3>
+      <div className="large-left-right-margin">
+        <div className="paragraph top-margin">
+          <h3>Prioritizing a single user group</h3>
           <p>
             Collaborating with CCWIP staff, two personas were developed to
             represent two of the keys users of the CCWIP website: County Analyst
@@ -258,16 +250,13 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "10% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
+      <div className="large-left-right-margin">
         <div>
-          <div className="paragraph">
+          <div className="paragraph top-margin">
             <ul>
               <li>
                 <div>
-                  <h3>Defining the intended interaction</h3>
+                  <h3>Modeling the intended interaction</h3>
                   <p>
                     With a design objective and primary user defined, the team
                     defined an ideal user flow through the CCWIP website. This
@@ -289,11 +278,8 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "10% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
-        <div className="paragraph small-top-bottom-margin">
+      <div className="large-left-right-margin">
+        <div className="paragraph top-margin">
           <h3>
             Creating an information architecture that supports both novice and
             advanced users
@@ -314,11 +300,8 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        className="large-left-right-margin"
-        style={{ margin: "7% auto 0 auto" }}
-      >
-        <div className="paragraph small-top-bottom-margin">
+      <div className="large-left-right-margin">
+        <div className="paragraph top-margin">
           <h3>
             Choice overload was leading to long load times and excessive
             navigation
@@ -336,12 +319,9 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "10% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
+      <div className="large-left-right-margin">
         <div>
-          <div className="paragraph">
+          <div className="paragraph top-margin">
             <ul>
               <li>
                 <div>
@@ -370,12 +350,9 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "10% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
-        <div className="paragraph">
-          <h3>Interactions considered for the reporting page</h3>
+      <div className="large-left-right-margin">
+        <div className="paragraph top-margin">
+          <h3>Other interactions considered for the reporting page</h3>
           <p>
             Interface components were prototyped with CCWIP staff to identify
             the mechanism(s) that would be most useful to users, in finding
@@ -390,10 +367,7 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "5% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
+      <div className="large-left-right-margin">
         <div>
           <div className="paragraph">
             <ul>
@@ -414,7 +388,7 @@ const Autodesk = () => {
               <li>
                 <div className="half-width">
                   <Img
-                    style={{ width: "75%", margin: "0 auto 0 auto" }} // top right bottom left
+                    style={{ width: "75%", margin: "5% auto 0 auto" }} // top right bottom left
                     fluid={data.preconfigured.childImageSharp.fluid}
                   />
                 </div>
@@ -424,10 +398,7 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "5% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
+      <div className="large-left-right-margin">
         <div className="paragraph">
           <ul>
             <li>
@@ -446,7 +417,7 @@ const Autodesk = () => {
             <li>
               <div className="half-width">
                 <Img
-                  style={{ width: "75%", margin: "0 auto 0 auto" }} // top right bottom left
+                  style={{ width: "75%", margin: "5% auto 0 auto" }} // top right bottom left
                   fluid={data.mostPopular.childImageSharp.fluid}
                 />
               </div>
@@ -455,10 +426,7 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "5% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
+      <div className="large-left-right-margin">
         <div className="paragraph">
           <ul>
             <li>
@@ -479,7 +447,7 @@ const Autodesk = () => {
             <li>
               <div className="half-width">
                 <Img
-                  style={{ width: "75%", margin: "0 auto 0 auto" }} // top right bottom left
+                  style={{ width: "75%", margin: "5% auto 0 auto" }} // top right bottom left
                   fluid={data.smallMultiples.childImageSharp.fluid}
                 />
               </div>
@@ -488,14 +456,9 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        className="large-left-right-margin"
-        style={{ margin: "10% auto 0 auto" }}
-      >
-        <div className="paragraph small-top-bottom-margin">
-          <h3>
-            A hybrid of pre-configured reports and similar report suggestions
-          </h3>
+      <div className="large-left-right-margin">
+        <div className="paragraph">
+          <h3>Final design: hybrid of pre-configured and similar reports</h3>
           <p>
             The final design transforms a three-step process into a single,
             manipulatable interface by loading a pre-configured (but
@@ -510,12 +473,9 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        className="large-left-right-margin"
-        style={{ margin: "10% auto 0 auto" }}
-      >
-        <div className="paragraph small-top-bottom-margin">
-          <h3>Creating a design system for future development</h3>
+      <div className="large-left-right-margin">
+        <div className="paragraph top-margin">
+          <h3>Creating a design system for sustained development</h3>
           <p>
             Building on CCWIPs existing branding, a comprehensive design system
             was developed. The U.S. Web Design System was used as a boilerplate
@@ -534,16 +494,13 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "10% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
+      <div className="large-left-right-margin">
         <div>
-          <div className="paragraph">
+          <div className="paragraph top-margin">
             <ul>
               <li>
                 <div>
-                  <h3>Implementation roadmap</h3>
+                  <h3>Prioritizing suggested changes in a product roadmap</h3>
                   <p>
                     As a small development team, CCWIP staff would not be able
                     to immediately implement very much of the proposed design
@@ -558,7 +515,7 @@ const Autodesk = () => {
               <li>
                 <div className="half-width">
                   <Img
-                    style={{ width: "65%", margin: "0 auto 0 auto" }} // top right bottom left
+                    style={{ width: "65%", margin: "5% auto 0 auto" }} // top right bottom left
                     fluid={data.roadmap.childImageSharp.fluid}
                   />
                 </div>
@@ -568,11 +525,8 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "10% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
-        <div className="paragraph">
+      <div className="large-left-right-margin">
+        <div className="paragraph top-margin">
           <h3>Final prototype</h3>
           <p style={{ margin: "0% 0% 5% 0%" }}>
             The final facilitates the analysts quest to find the data they are
@@ -598,12 +552,9 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        className="large-left-right-margin"
-        style={{ margin: "10% auto 10% auto" }}
-      >
-        <div className="paragraph">
-          <ul>
+      <div className="large-left-right-margin">
+        <div className="paragraph top-margin">
+          <ul style={{ margin: "0 0 10% 0" }}>
             <li>
               <div>
                 <h3>Impact</h3>

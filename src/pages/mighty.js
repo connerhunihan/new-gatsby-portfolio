@@ -203,16 +203,16 @@ const Mighty = () => {
       <div className="large-left-right-margin">
         <div className="paragraph top-margin">
           <h3>
-            Utilizing mixed methods research to streamline the existing platform
-            and discover new product opportunities
+            Mixed methods research to streamline the existing platform and
+            discover new product opportunities
           </h3>
           <p>
             15 interviews were conducted across two research studies, including
             a mix of users and non-users, as well as a variety of roles in the
             venture capital community. 350+ observations were affinity mapped
-            into two sets of findings:{" "}
-            <b>suggestions on how to streamline the existing product</b> and{" "}
-            <b>recommendations on new features to deliver novel value.</b>
+            into <b>two sets of findings:</b> suggestions on how to{" "}
+            <b>streamline the existing product</b> and recommendations on{" "}
+            <b>new features</b> to deliver novel value.
           </p>
           <Img
             style={{ width: "66%", margin: "5% auto 0 auto" }} // top right bottom left

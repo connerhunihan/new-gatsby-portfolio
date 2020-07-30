@@ -128,9 +128,8 @@ const Autodesk = () => {
                 easily incorporate the license chooser tool out-of-the-box?
               </p>
               <p>
-                How can licensing decisions be framed in a way that allows users
-                to make informed decisions, without needing to learn technical
-                details?
+                How can licensing decisions be framed so that users can make
+                informed decisions, without needing to learn technical details?
               </p>
             </div>
           </div>
@@ -139,7 +138,7 @@ const Autodesk = () => {
 
       {/* Full bleed */}
       <div className="large-left-right-margin">
-        <div className="paragraph small-top-bottom-margin">
+        <div className="paragraph top-margin">
           <h3>
             The community doesn’t understand what licenses are, or how to use
             them
@@ -160,8 +159,7 @@ const Autodesk = () => {
       </div>
 
       <div className="large-left-right-margin">
-        {/* <div className="half-width"> */}
-        <div className="paragraph">
+        <div className="paragraph top-margin">
           <ul>
             <li>
               <div>
@@ -202,7 +200,7 @@ const Autodesk = () => {
       </div>
 
       <div className="large-left-right-margin">
-        <div className="paragraph">
+        <div className="paragraph top-margin">
           <h3>A typical, passionate user</h3>
           <p>
             A user persona was created in the shadow of a typical user. Paulo is
@@ -221,11 +219,8 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "7% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
-        <div className="paragraph">
+      <div className="large-left-right-margin">
+        <div className="paragraph top-margin">
           <h3>Three existing bright spots</h3>
           <p>
             In testing the existing licensing experience, there were three areas
@@ -236,10 +231,7 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "7% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
+      <div className="large-left-right-margin">
         <div>
           <div className="paragraph">
             <ul>
@@ -346,7 +338,7 @@ const Autodesk = () => {
         className="large-left-right-margin"
       >
         <div className="paragraph">
-          <h3>Step 1: make the shopping list</h3>
+          <h3>Step 1: making a shopping list</h3>
           <p>
             What do you do before going shopping? You make a list of the
             ingredients to buy. Orienting users to the license components gives
@@ -366,7 +358,7 @@ const Autodesk = () => {
         className="large-left-right-margin"
       >
         <div className="paragraph">
-          <h3>Step 2: fill the shopping cart</h3>
+          <h3>Step 2: filling a shopping cart</h3>
           <p>
             Once in the store, shoppers compare and contrast items before making
             final purchasing decisions. Similarly, the Chooser Tool builds upon
@@ -385,7 +377,7 @@ const Autodesk = () => {
         className="large-left-right-margin"
       >
         <div className="paragraph">
-          <h3>Step 3: make the recipe</h3>
+          <h3>Step 3: making a recipe</h3>
           <p>
             The last step is actually using the purchased ingredients. With the
             Chooser Tool, this mostly means copying and pasting HTML (although
@@ -516,7 +508,7 @@ const Autodesk = () => {
         className="large-left-right-margin"
       >
         <div className="paragraph">
-          <h3>Third-party integration</h3>
+          <h3>Designing for third-party integration</h3>
           <p style={{ margin: "0% 0% 5% 0%" }}>
             Conference presentations are high on the list of content Paulo wants
             to license, so the design was ported into Google Slides to
@@ -540,7 +532,7 @@ const Autodesk = () => {
       </div>
 
       <div className="large-left-right-margin">
-        <div style={{ margin: "15% 0% 5% 0%" }} className="paragraph">
+        <div style={{ margin: "15% 0% 10% 0%" }} className="paragraph">
           <h3>Handing off the revised style guide + design system</h3>
           <p>
             The design necessitated extending the{" "}

@@ -28,10 +28,10 @@ const Mighty = () => {
         <div className="small-left-right-margin">
           <div className="banner project">
             <p>
-              Evaluative & generative user research, workshop facilitation,
-              wireframe prototyping, and hi-fidelity design of a support
-              platform that merged various tools into a single product
-              experience.
+              Evaluative & generative user research, week-long remote workshop
+              facilitation, wireframe prototyping and hi-fidelity design of a
+              support platform that merged various administrative tools into a
+              single product experience.
             </p>
           </div>
           <div className="project-components">
@@ -71,7 +71,7 @@ const Mighty = () => {
           {/* <h3>This is a title</h3> */}
           <h3>
             Due to NDA restrictions, the details of this project are only
-            available for in-person presentation.
+            available for anonymized, in-person discussion.
           </h3>
         </div>
       </div>

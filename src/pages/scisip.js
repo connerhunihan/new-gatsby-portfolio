@@ -117,19 +117,16 @@ const Autodesk = () => {
       </div>
 
       <div className="large-left-right-margin">
-        <div
-          style={{ margin: "10% auto 0 auto" }}
-          className="paragraph small-top-bottom-margin"
-        >
-          <h3>Obtaining content while shaving time off the schedule</h3>
+        <div className="paragraph top-margin">
+          <h3>Conducting an email campaign to get our hands on content</h3>
           <p>
-            The team faced an immediate hurdle in getting their hands on content
-            for the platform. To resolve this, an email campaign was designed
-            and sent to over 300 Principal Investigators (PIs) and co-PIs. The
-            email directed users to a Typeform, who’s questionnaire
-            automatically populated a spreadsheet, cleaning the data as it was
-            submitted. This enabled the development team to move content onto
-            the platform much more quickly than originally scoped.
+            The team faced an immediate hurdle in acquiring content for the
+            platform. To resolve this, an email campaign was designed and sent
+            to over 300 Principal Investigators (PIs) and co-PIs. The email
+            directed users to a Typeform, who’s questionnaire automatically
+            populated a spreadsheet, cleaning the data as it was submitted. This
+            enabled the development team to move content onto the platform much
+            more quickly than originally scoped.
           </p>
           <Img
             style={{ width: "75%", margin: "7% auto 0 auto" }} // top right bottom left
@@ -138,15 +135,9 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "10% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
-        <div className="paragraph">
-          <h3>
-            A publishing platform? A social network? Or a program marketing
-            tool?
-          </h3>
+      <div className="large-left-right-margin">
+        <div className="paragraph top-margin">
+          <h3>A publishing platform? A social network? Or a marketing tool?</h3>
           <p>
             While the initial focus of the project was to design a publishing
             platform for policy research, interviews with users suggested
@@ -160,10 +151,7 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "3% auto 0 auto" }}
-        className="large-left-right-margin"
-      >
+      <div className="large-left-right-margin">
         <div className="paragraph">
           <ul>
             <li>
@@ -191,10 +179,7 @@ const Autodesk = () => {
         </div>
       </div>
 
-      <div
-        style={{ margin: "5% auto 10% auto" }}
-        className="large-left-right-margin"
-      >
+      <div className="large-left-right-margin">
         <div className="paragraph">
           <ul>
             <li>
@@ -221,7 +206,7 @@ const Autodesk = () => {
       </div>
 
       <div className="large-left-right-margin">
-        <div style={{ margin: "10% auto 10% auto" }} className="paragraph">
+        <div className="paragraph top-margin">
           <h3>
             Wireframing to refine feature functionality and content
             representation
@@ -232,17 +217,14 @@ const Autodesk = () => {
             where – and how – content is surfaced to users.
           </p>
           <Img
-            style={{ width: "75%", margin: "5% auto 0 auto" }} // top right bottom left
+            style={{ width: "85%", margin: "5% auto 0 auto" }} // top right bottom left
             fluid={data.wireframes.childImageSharp.fluid}
           />
         </div>
       </div>
 
       <div className="large-left-right-margin">
-        <div
-          style={{ margin: "10% auto 10% auto" }}
-          className="paragraph small-top-bottom-margin"
-        >
+        <div className="paragraph top-margin">
           <h3>Handing design over to MIGHTYminnow</h3>
           <p>
             With the core information architecture and basic site functionality
@@ -252,17 +234,14 @@ const Autodesk = () => {
             in through multiple, higher-fidelity design iterations (right).
           </p>
           <Img
-            style={{ width: "100%", margin: "5% auto 0 auto" }} // top right bottom left
+            style={{ width: "85%", margin: "5% auto 0 auto" }} // top right bottom left
             fluid={data.minnow.childImageSharp.fluid}
           />
         </div>
       </div>
 
       <div className="large-left-right-margin">
-        <div
-          style={{ margin: "10% auto 10% auto" }}
-          className="paragraph small-top-bottom-margin"
-        >
+        <div className="paragraph top-margin">
           <h3>The finished product</h3>
           <p>
             The{" "}
@@ -274,7 +253,7 @@ const Autodesk = () => {
             the National Science Foundation.
           </p>
           <Img
-            style={{ width: "100%", margin: "5% auto 0 auto" }} // top right bottom left
+            style={{ width: "85%", margin: "10% auto 0 auto" }} // top right bottom left
             fluid={data.final.childImageSharp.fluid}
           />
         </div>
