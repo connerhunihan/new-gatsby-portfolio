@@ -18,21 +18,24 @@ const Project = () => (
           would be my home for the next 27 months.
         </p>
         <p>
-          I didn't know it at the time, but the research I would conduct
-          throughout my Peace Corps service would change my life.
+          I didn't know it at the time, but the research I was about to conduct
+          in my Peace Corps service would introduce me to a new path in life.
         </p>
         <p>
           Though I spoke not a word of Quechua, I fell in love with the process
-          of problem solving through the lens of the user.
+          of problem solving through the lens of the human at the center of the
+          system.
         </p>
         <p>
-          Graduate study at Berkley's School of Information refined my process
-          of human centered design, and helped me find my passion for
-          technology.
+          Graduate study at Berkley's School of Information gave me the
+          technical training to apply that process to the design of technology,
+          and helped me find my passion for guiding others who are in the
+          pursuit of transformation through technology.
         </p>
         <p>
-          I now create user experiences at EchoUser, where I help clients bring
-          about transformation though human-centered products and services.
+          I now create user experiences at EchoUser, where I help clients big
+          and small bring about such transformation through human-centered
+          products and services.
         </p>
       </div>
     </div>
