@@ -13,29 +13,25 @@ const Project = () => (
         <p>Imanalla! Ima shuti kangui?</p>
       </div>
       <div className="paragraph">
+        <p>I had no idea what that meant, either.</p>
         <p>
-          That was the first thing I heard when I stepped off the bus in what
-          would be my home for the next 27 months.
+          But 27 months later, I left Ecuador with a marginally-proficient –
+          albeit random – understanding of northern Andean Quechua, and a
+          newfound passion for solving problems through the lens of the human at
+          the center of the system.
         </p>
         <p>
-          I didn't know it at the time, but the research I was about to conduct
-          in my Peace Corps service would introduce me to a new path in life.
+          And while the Peace Corps introduced me to human-centered design, it
+          was graduate study at Berkley's School of Information that formalized
+          my process and gave me the technical training to apply that process to
+          the design of technology in society.
         </p>
         <p>
-          Though I spoke not a word of Quechua, I fell in love with the process
-          of problem solving through the lens of the human at the center of the
-          system.
-        </p>
-        <p>
-          Graduate study at Berkley's School of Information gave me the
-          technical training to apply that process to the design of technology,
-          and helped me find my passion for guiding others who are in the
-          pursuit of transformation through technology.
-        </p>
-        <p>
-          I now create user experiences at EchoUser, where I help clients big
-          and small bring about such transformation through human-centered
-          products and services.
+          I have always been driven to help guide others, and I now do that
+          professionally, creating (mostly digital) user experiences at
+          EchoUser. Working with clients both big and small, we enabled
+          transformation through the design of human-centered products and
+          services.
         </p>
       </div>
     </div>
