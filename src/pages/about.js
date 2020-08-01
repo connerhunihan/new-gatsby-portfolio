@@ -13,25 +13,35 @@ const Project = () => (
         <p>Imanalla! Ima shuti kangui?</p>
       </div>
       <div className="paragraph">
-        <p>I had no idea what that meant, either.</p>
         <p>
-          But 27 months later, I left Ecuador with a marginally-proficient –
-          albeit random – understanding of northern Andean Quechua, and a
-          newfound passion for solving problems through the lens of the human at
-          the center of the system.
+          In northern Andrean Quechua, that means
+          <br /> <em>Hello! How are you?</em>
         </p>
         <p>
-          And while the Peace Corps introduced me to human-centered design, it
-          was graduate study at Berkley's School of Information that formalized
-          my process and gave me the technical training to apply that process to
-          the design of technology in society.
+          I don’t speak Quechua, but I did learn enough in the Peace Corps to
+          say <em>Hello!</em> and <em>How are you?</em> and{" "}
+          <em>Who gave you that bread?</em>
         </p>
         <p>
-          I have always been driven to help guide others, and I now do that
-          professionally, creating (mostly digital) user experiences at
-          EchoUser. Working with clients both big and small, we enabled
-          transformation through the design of human-centered products and
-          services.
+          The thing about Quechua is that it’s not a written language. There is
+          a way to represent phonetics, but there are no written texts to learn
+          from – you have to talk with people to learn it.
+        </p>
+        <p>
+          But isn’t that the best way to figure something out? To go out, talk
+          with people, learn about who they are, what they want, and how they do
+          what they are trying to do?
+        </p>
+        <p>
+          The Peace Corps gave me a taste of this, but it was graduate study at
+          Berkley's School of Information that solidified this passion and gave
+          me the technical skills to apply that process to the design of
+          technology.
+        </p>
+        <p>
+          I now get to talk with people and solve problems for a living, working
+          with clients both big and small to help them understand the people
+          they serve and to design human-centered products and experiences.
         </p>
       </div>
     </div>
