@@ -219,12 +219,12 @@ const Autodesk = () => {
 
       <div className="large-left-right-margin">
         <div className="paragraph top-margin">
-          <h3>Concept model</h3>
+          <h3>Information hierarchy</h3>
           <p>
-            A concept model was created to map the mental model users had, to
-            the revised structure of the data portal property. This provided not
-            only a foundation for the portal, but it outlined process details
-            that would need to be included in the product experience, as well.
+            The information required by users was organized into hierarchies in
+            order to restructure the data portal. This provided not only a
+            foundational information architecture, but an engagement model for
+            actually using products, as well.
           </p>
           <Img
             style={{ width: "85%", margin: "3% auto 0 auto" }} // top right bottom left
