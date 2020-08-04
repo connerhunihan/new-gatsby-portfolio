@@ -238,15 +238,16 @@ const Autodesk = () => {
         <div className="paragraph top-margin">
           <h3>Three distinct pain points in the process</h3>
           <p>
-            A service design blueprint was created to visually represent paint
-            points, dependencies, and areas of opportunity that exist throughout
-            the process of using a given ADP data product. The exercise
-            suggested that technical users required three distinct pieces of
-            knowledge throughout their engagement with ADP: process (An overview
-            of the process required to use the various softwares of ADP),
-            details (detailed explanations of permissions, points of contact,
-            and use case-dependent instructions) and context (Notes of what
-            works and what didn’t for teams that have gone before).
+            A typical journey of using the Development / ETL product was mapped
+            to visually represent paint points, dependencies, and areas of
+            opportunity that exist throughout the process of using a given ADP
+            data product. The exercise suggested that technical users required
+            three distinct pieces of knowledge throughout their engagement with
+            ADP: process (An overview of the process required to use the various
+            softwares of ADP), details (detailed explanations of permissions,
+            points of contact, and use case-dependent instructions) and context
+            (Notes of what works and what didn’t for teams that have gone
+            before).
           </p>
           <Img
             style={{ width: "85%", margin: "3% auto 0 auto" }} // top right bottom left
